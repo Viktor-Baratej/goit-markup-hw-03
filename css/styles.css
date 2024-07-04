@@ -4,7 +4,7 @@ body {
   min-width: 320px;
   overflow-x: hidden;
   line-height: 1.5;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -48,9 +48,8 @@ section {
   padding: 120px 0;
 }
 
-
 .header {
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -65,7 +64,7 @@ section {
 }
 
 .header-logo-color {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .header-contacts-link {
@@ -77,7 +76,7 @@ section {
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .header-contacts-list {
@@ -94,7 +93,7 @@ section {
 }
 
 .hero {
-  background: #2E2F42;
+  background: #2e2f42;
   text-align: center;
   padding: 188px 0;
 }
@@ -105,7 +104,7 @@ section {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 496px;
   margin: 0 auto 48px;
 }
@@ -115,9 +114,9 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
@@ -131,7 +130,7 @@ section {
 
 .btn:hover,
 .btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .section-title {
@@ -141,7 +140,7 @@ section {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2E2F42;
+  color: #2e2f42;
   margin-bottom: 72px;
 }
 
@@ -152,11 +151,11 @@ section {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .footer-logo-color {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .nav-menu {
@@ -177,12 +176,12 @@ section {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   font-weight: 500;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .nav-menu-link:hover,
 .nav-menu-link:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .header-contacts {
@@ -191,10 +190,9 @@ section {
 }
 
 .nav-menu-link.is-active {
-  color: #404BBF;
+  color: #404bbf;
 }
 
-      
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -207,7 +205,6 @@ section {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 
 .features-item:not(:last-child) {
   margin-right: 24px;
@@ -223,7 +220,7 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
   margin-bottom: 8px;
 }
 
@@ -238,7 +235,7 @@ section {
 }
 
 .team {
-  background: #F4F4FD;
+  background: #f4f4fd;
 }
 
 .team .section-title {
@@ -253,12 +250,13 @@ section {
 }
 
 .team-item {
-  background-color: #FFFFFF;
-  display:block;
+  background-color: #ffffff;
+  display: block;
   border-radius: 0 0 4px 4px;
-  max-width: calc((100% - 72px ) / 4);
+  max-width: calc((100% - 72px) / 4);
   width: 100%;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-item-content {
@@ -271,17 +269,15 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
-  p
 }
 
 .team-description {
   letter-spacing: 0.02em;
   text-align: center;
 }
-
 
 .portfolio-list {
   display: flex;
@@ -297,9 +293,9 @@ section {
 }
 
 .portfolio-item-content {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 32px 16px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
   border-top: none;
   min-height: 120px;
 }
@@ -310,7 +306,7 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 .portfolio-description {
@@ -319,12 +315,12 @@ section {
 }
 
 .footer {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
   padding: 100px 0;
 }
 
 .footer-text {
-  color: #F4F4FD;
+  color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
