@@ -209,6 +209,7 @@ section {
   overflow: hidden;
 }
 
+
 .features-item:not(:last-child) {
   margin-right: 24px;
 }
