@@ -4,7 +4,7 @@ body {
   min-width: 320px;
   overflow-x: hidden;
   line-height: 1.5;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -38,18 +38,18 @@ a {
 
 .container {
   max-width: 1158px;
-  padding-left: 15;
-  padding-right: 15;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.section {
+section {
   padding: 120px 0;
 }
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -64,7 +64,7 @@ a {
 }
 
 .header-logo-color {
-  color: #2e2f42;
+  color: #2E2F42;
 }
 
 .header-contacts-link {
@@ -76,7 +76,7 @@ a {
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #404bbf;
+  color: #404BBF;
 }
 
 .header-contacts-list {
@@ -93,7 +93,7 @@ a {
 }
 
 .hero {
-  background: #2e2f42;
+  background: #2E2F42;
   text-align: center;
   padding: 188px 0;
 }
@@ -104,7 +104,7 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   max-width: 496px;
   margin: 0 auto 48px;
 }
@@ -114,9 +114,9 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #FFFFFF;
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: #4D5AE5;
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
@@ -131,7 +131,7 @@ a {
 
 .btn:hover,
 .btn:focus {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 
 .section-title {
@@ -141,8 +141,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
-  padding-top: 120px;
+  color: #2E2F42;
   margin-bottom: 72px;
 }
 
@@ -153,11 +152,11 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #4D5AE5;
 }
 
 .footer-logo-color {
-  color: #f4f4fd;
+  color: #F4F4FD;
 }
 
 .nav-menu {
@@ -178,20 +177,21 @@ a {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   font-weight: 500;
-  color: #2e2f42;
+  color: #2E2F42;
 }
 
 .nav-menu-link:hover,
 .nav-menu-link:focus {
-  color: #404bbf;
+  color: #404BBF;
 }
 
 .header-contacts {
   font-style: normal;
   margin-left: auto;
 }
+
 .nav-menu-link.is-active {
-  color: #404bbf;
+  color: #404BBF;
 }
 
 .features-item:not(:last-child) {
@@ -203,16 +203,13 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #2E2F42;
   margin-bottom: 8px;
 }
 
 .features-list {
   display: flex;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  padding-top: 72px;
 }
 
 .features-description {
@@ -221,11 +218,11 @@ a {
 }
 
 .team {
-  background: #f4f4fd;
+  background: #F4F4FD;
 }
 
 .team .section-title {
-  padding: 120px 0;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -236,10 +233,12 @@ a {
 }
 
 .team-item {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   display:block;
-  Max-width: 100%;
-  Height: auto;
+  border-radius: 0 0 4px 4px;
+  max-width: calc((100% - 72px ) / 4);
+  width: 100%;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-item-content {
@@ -252,7 +251,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #2E2F42;
   text-align: center;
   margin-bottom: 8px;
   p
@@ -266,8 +265,7 @@ a {
 .portfolio-container {
 }
 
-.portfolio .section-title {
-  margin-bottom: 72px;
+.section-title {
 }
 
 .portfolio-list {
@@ -282,13 +280,13 @@ a {
   max-width: 360px;
   width: 100%;
 }
+
 .portfolio-item-content {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid #E7E9FC;
   border-top: none;
   min-height: 120px;
-  
 }
 
 .portfolio-title {
@@ -297,7 +295,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #2E2F42;
 }
 
 .portfolio-description {
@@ -306,12 +304,12 @@ a {
 }
 
 .footer {
-  background-color: #2e2f42;
+  background-color: #2E2F42;
   padding: 100px 0;
 }
 
 .footer-text {
-  color: #f4f4fd;
+  color: #F4F4FD;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
