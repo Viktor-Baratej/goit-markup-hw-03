@@ -127,7 +127,6 @@ section {
   transition: background-color 0.4s ease-in-out;
   display: block;
   margin: 0 auto;
-  cursor: pointer;
 }
 
 .btn:hover,
@@ -283,11 +282,6 @@ section {
   text-align: center;
 }
 
-.portfolio-container {
-}
-
-.section-title {
-}
 
 .portfolio-list {
   display: flex;
