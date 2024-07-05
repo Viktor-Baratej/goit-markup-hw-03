@@ -58,6 +58,39 @@ section {
   justify-content: space-between;
 }
 
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-item:not(:last-child),
+.header-contacts-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav-menu-link {
+  padding: 24px 0;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.nav-menu-link.is-active {
+  color: #404bbf;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -82,7 +115,6 @@ section {
 .header-contacts-list {
   font-style: normal;
   align-items: center;
-  gap: 40px;
   margin-left: auto;
   display: flex;
 }
@@ -156,41 +188,6 @@ section {
 
 .footer-logo-color {
   color: #f4f4fd;
-}
-
-.nav-menu {
-  margin-left: 76px;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.nav-menu-item:not(:last-child),
-.header-contacts-item:not(:last-child) {
-  margin-right: 40px;
-}
-
-.nav-menu-link {
-  padding: 24px 0;
-  display: block;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  color: #2e2f42;
-}
-
-.nav-menu-link:hover,
-.nav-menu-link:focus {
-  color: #404bbf;
-}
-
-.header-contacts {
-  font-style: normal;
-  margin-left: auto;
-}
-
-.nav-menu-link.is-active {
-  color: #404bbf;
 }
 
 .visually-hidden {
